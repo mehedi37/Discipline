@@ -3,7 +3,8 @@
     "type": "module",
     "scripts": {
         "build": "vite build",
-        "dev": "vite"
+        "dev": "vite",
+        "vercel-build": "npm run build && composer install --optimize-autoloader --no-dev"
     },
     "devDependencies": {
         "@headlessui/react": "^2.0.0",
