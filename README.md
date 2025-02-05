@@ -74,9 +74,9 @@ The project uses a multi-container setup with:
 - Node.js
 
 Key configuration files:
- - Dockerfile - PHP application container
- - docker-compose.yml - Container orchestration
- - nginx.conf - Nginx web server configuration
+ - [Dockerfile](https://github.com/mehedi37/Discipline/blob/main/Dockerfile) - PHP application container
+ - [docker-compose.yml](https://github.com/mehedi37/Discipline/blob/main/docker-compose.yml) - Container orchestration
+ - [nginx.conf](https://github.com/mehedi37/Discipline/blob/main/nginx.conf) - Nginx web server configuration
 
 ## 📦 Deployment
 
